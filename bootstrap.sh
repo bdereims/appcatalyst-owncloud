@@ -26,6 +26,8 @@ mkdir -p $DATADIR
 case $HOSTNAME in
 "pos-1") 
 	echo "- Owncloud Container Install." 
+	chown -R 33:33 $DATADIR
+	chmod -R 0770 $DATADIR
 	docker run -d -p 80:80 -p 443:443 -v $DATADIR:/var/www/owncloud/data bdereims/owncloud
 	;;
 "pos-2") 
