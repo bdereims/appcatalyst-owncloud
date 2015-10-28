@@ -32,6 +32,9 @@ $ appcatalyst vmpower list
 $ ssh -i /opt/vmware/appcatalyst/etc/appcatalyst_insecure_ssh_key photon@172.16.4.129
 $ vagrant ssh pos-1
 
+>>> How to see all API
+http://localhost:8080
+
 >>> How to list @IP
 $ curl http://localhost:8080/api/vms
 ["vagrant-25be349e-8ef4-44ef-ae3a-b445a5cfff7d","vagrant-db787329-5553-4df1-b8a1-d420b137b8bc"]
