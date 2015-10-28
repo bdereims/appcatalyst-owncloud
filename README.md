@@ -6,23 +6,18 @@ It's a demo Env for AppCatalyst, the minimal and free Mac OS Hypervisor for deve
 AppCatalyst is a solution for DevOps and Cloud Native Apps for more flexibility and speed of development. It's really simple and quick to setup and environment and start to write lines of code. No need and no pain to install linux boxes and setup docker. Fully automated and reachable through CLI and REST API.
 
 
-#2. AppCatalyst Installation
+#2. AppCatalyst and Vagrant Installation
 
-TBC
-
-
-#3. Vagrant Installation
-
-TBC
+See the excellent blog : http://www.virtuallyghetto.com/2015/06/quickly-getting-started-with-vmware-appcatalyst-appcatalyst-vagrant-plugin.html
 
 
-#4. Build en Env
+#3. Build en Env
 
 $ . ./env.sh
 $ ./vagrantup.sh
 
 
-#5. What to see?
+#4. What to see?
 
 >>> How to list VM
 $ vagrant status
