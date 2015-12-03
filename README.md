@@ -1,3 +1,5 @@
+![alt tag](http://blogs.vmware.com/cloudnative/files/2015/10/VMW-LOGO-PHOTON-1024x219.jpg)
+
 #Demo Env for AppCatalyst + Vagrant within Fusion on a Mac : Owncloud and MySQL in a minute
 
 #1. What is it?
